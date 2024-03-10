@@ -243,10 +243,38 @@ class TupleFeatures: XCTestCase {
   }
   
   //  Subtracting Colors
-  //  LEFT OFF HERE
+  //  Given c1 ← color(0.9, 0.6, 0.75)
+  //  And c2 ← color(0.7, 0.1, 0.25)
+  //  Then c1 - c2 = color(0.2, 0.5, 0.5)
+  func testSubtractColors() {
+    let c1 = Color(r: 0.9, g: 0.6, b: 0.75)
+    let c2 = Color(r: 0.7, g: 0.1, b: 0.25)
+    XCTAssertEqual(c1 - c2, Color(r: 0.2, g: 0.5, b: 0.5))
+  }
   
+  //  Multiplying a color by a scalar value
+  //  Given c ← color(0.2, 0.3, 0.4)
+  //  Then c * 2 = color(0.4, 0.6, 0.8)
+  func testMultiplyColorWithScalar() {
+    let c = Color(r: 0.2, g: 0.3, b: 0.4)
+    let c2 = c * 2
+    XCTAssertEqual(c2.red, 0.4, accuracy: 0.00001)
+    XCTAssertEqual(c2.green, 0.6, accuracy: 0.00001)
+    XCTAssertEqual(c2.blue, 0.8, accuracy: 0.00001)
+  }
   
-  
+  //  Multiply colors
+  //  Given c1 ← color(1, 0.2, 0.4)
+  //  And c2 ← color(0.9, 1, 0.1)
+  //  Then c1 * c2 = color(0.9, 0.2, 0.04)
+  func testMultiplyColors() {
+    let c1 = Color(r: 1, g: 0.2, b: 0.4)
+    let c2 = Color(r: 0.9, g: 1, b: 0.1)
+    let product = c1 * c2
+    XCTAssertEqual(product.red, 0.9, accuracy: 0.00001)
+    XCTAssertEqual(product.green, 0.2, accuracy: 0.00001)
+    XCTAssertEqual(product.blue, 0.04, accuracy: 0.00001)
+  }
   
   
   
