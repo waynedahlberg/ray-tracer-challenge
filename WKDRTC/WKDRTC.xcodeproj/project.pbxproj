@@ -11,7 +11,27 @@
 		B04C665F2B9D59F4009C1EB8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04C665E2B9D59F4009C1EB8 /* ViewController.swift */; };
 		B04C66612B9D59F5009C1EB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B04C66602B9D59F5009C1EB8 /* Assets.xcassets */; };
 		B04C66642B9D59F5009C1EB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B04C66622B9D59F5009C1EB8 /* Main.storyboard */; };
+		B04C666D2B9D5ACA009C1EB8 /* Tuple.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04C666C2B9D5ACA009C1EB8 /* Tuple.swift */; };
+		B04C666F2B9D5BA2009C1EB8 /* Point.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04C666E2B9D5BA2009C1EB8 /* Point.swift */; };
+		B04C66712B9D5BA9009C1EB8 /* Vector.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04C66702B9D5BA9009C1EB8 /* Vector.swift */; };
+		B04C667F2B9D61A9009C1EB8 /* WKDRTCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04C667E2B9D61A9009C1EB8 /* WKDRTCTests.swift */; };
+		B04C66872B9D6222009C1EB8 /* TupleFeatures.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04C66862B9D6222009C1EB8 /* TupleFeatures.swift */; };
+		B04C668A2B9D9FD2009C1EB8 /* Ch01.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04C66892B9D9FD2009C1EB8 /* Ch01.swift */; };
+		B04C668E2B9DA06D009C1EB8 /* Projectile.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04C668D2B9DA06D009C1EB8 /* Projectile.swift */; };
+		B04C66902B9DA130009C1EB8 /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04C668F2B9DA130009C1EB8 /* Environment.swift */; };
+		B04C66922B9DA272009C1EB8 /* Chapters.xctestplan in Resources */ = {isa = PBXBuildFile; fileRef = B04C66912B9DA272009C1EB8 /* Chapters.xctestplan */; };
+		B04C66942B9DA667009C1EB8 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04C66932B9DA667009C1EB8 /* Color.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B04C66802B9D61A9009C1EB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B04C66512B9D59F4009C1EB8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B04C66582B9D59F4009C1EB8;
+			remoteInfo = WKDRTC;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		B04C66592B9D59F4009C1EB8 /* WKDRTC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WKDRTC.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -20,10 +40,28 @@
 		B04C66602B9D59F5009C1EB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B04C66632B9D59F5009C1EB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B04C66652B9D59F5009C1EB8 /* WKDRTC.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WKDRTC.entitlements; sourceTree = "<group>"; };
+		B04C666C2B9D5ACA009C1EB8 /* Tuple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tuple.swift; sourceTree = "<group>"; };
+		B04C666E2B9D5BA2009C1EB8 /* Point.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Point.swift; sourceTree = "<group>"; };
+		B04C66702B9D5BA9009C1EB8 /* Vector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vector.swift; sourceTree = "<group>"; };
+		B04C667C2B9D61A9009C1EB8 /* WKDRTCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WKDRTCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B04C667E2B9D61A9009C1EB8 /* WKDRTCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WKDRTCTests.swift; sourceTree = "<group>"; };
+		B04C66862B9D6222009C1EB8 /* TupleFeatures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TupleFeatures.swift; sourceTree = "<group>"; };
+		B04C66892B9D9FD2009C1EB8 /* Ch01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ch01.swift; sourceTree = "<group>"; };
+		B04C668D2B9DA06D009C1EB8 /* Projectile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Projectile.swift; sourceTree = "<group>"; };
+		B04C668F2B9DA130009C1EB8 /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
+		B04C66912B9DA272009C1EB8 /* Chapters.xctestplan */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Chapters.xctestplan; sourceTree = "<group>"; };
+		B04C66932B9DA667009C1EB8 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		B04C66562B9D59F4009C1EB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B04C66792B9D61A9009C1EB8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,6 +75,8 @@
 			isa = PBXGroup;
 			children = (
 				B04C665B2B9D59F4009C1EB8 /* WKDRTC */,
+				B04C666B2B9D5AAE009C1EB8 /* Base */,
+				B04C667D2B9D61A9009C1EB8 /* WKDRTCTests */,
 				B04C665A2B9D59F4009C1EB8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -45,6 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				B04C66592B9D59F4009C1EB8 /* WKDRTC.app */,
+				B04C667C2B9D61A9009C1EB8 /* WKDRTCTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -59,6 +100,46 @@
 				B04C66652B9D59F5009C1EB8 /* WKDRTC.entitlements */,
 			);
 			path = WKDRTC;
+			sourceTree = "<group>";
+		};
+		B04C666B2B9D5AAE009C1EB8 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				B04C666C2B9D5ACA009C1EB8 /* Tuple.swift */,
+				B04C666E2B9D5BA2009C1EB8 /* Point.swift */,
+				B04C668D2B9DA06D009C1EB8 /* Projectile.swift */,
+				B04C66702B9D5BA9009C1EB8 /* Vector.swift */,
+				B04C668F2B9DA130009C1EB8 /* Environment.swift */,
+				B04C66932B9DA667009C1EB8 /* Color.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		B04C667D2B9D61A9009C1EB8 /* WKDRTCTests */ = {
+			isa = PBXGroup;
+			children = (
+				B04C667E2B9D61A9009C1EB8 /* WKDRTCTests.swift */,
+				B04C66882B9D9FA5009C1EB8 /* PuttingItTogether */,
+				B04C66852B9D61B2009C1EB8 /* Features */,
+			);
+			path = WKDRTCTests;
+			sourceTree = "<group>";
+		};
+		B04C66852B9D61B2009C1EB8 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				B04C66862B9D6222009C1EB8 /* TupleFeatures.swift */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		B04C66882B9D9FA5009C1EB8 /* PuttingItTogether */ = {
+			isa = PBXGroup;
+			children = (
+				B04C66912B9DA272009C1EB8 /* Chapters.xctestplan */,
+				B04C66892B9D9FD2009C1EB8 /* Ch01.swift */,
+			);
+			path = PuttingItTogether;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -81,6 +162,24 @@
 			productReference = B04C66592B9D59F4009C1EB8 /* WKDRTC.app */;
 			productType = "com.apple.product-type.application";
 		};
+		B04C667B2B9D61A9009C1EB8 /* WKDRTCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B04C66822B9D61A9009C1EB8 /* Build configuration list for PBXNativeTarget "WKDRTCTests" */;
+			buildPhases = (
+				B04C66782B9D61A9009C1EB8 /* Sources */,
+				B04C66792B9D61A9009C1EB8 /* Frameworks */,
+				B04C667A2B9D61A9009C1EB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B04C66812B9D61A9009C1EB8 /* PBXTargetDependency */,
+			);
+			name = WKDRTCTests;
+			productName = WKDRTCTests;
+			productReference = B04C667C2B9D61A9009C1EB8 /* WKDRTCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -93,6 +192,10 @@
 				TargetAttributes = {
 					B04C66582B9D59F4009C1EB8 = {
 						CreatedOnToolsVersion = 15.2;
+					};
+					B04C667B2B9D61A9009C1EB8 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = B04C66582B9D59F4009C1EB8;
 					};
 				};
 			};
@@ -110,6 +213,7 @@
 			projectRoot = "";
 			targets = (
 				B04C66582B9D59F4009C1EB8 /* WKDRTC */,
+				B04C667B2B9D61A9009C1EB8 /* WKDRTCTests */,
 			);
 		};
 /* End PBXProject section */
@@ -124,6 +228,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B04C667A2B9D61A9009C1EB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B04C66922B9DA272009C1EB8 /* Chapters.xctestplan in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -131,12 +243,36 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B04C668E2B9DA06D009C1EB8 /* Projectile.swift in Sources */,
+				B04C666F2B9D5BA2009C1EB8 /* Point.swift in Sources */,
 				B04C665F2B9D59F4009C1EB8 /* ViewController.swift in Sources */,
+				B04C66902B9DA130009C1EB8 /* Environment.swift in Sources */,
+				B04C66712B9D5BA9009C1EB8 /* Vector.swift in Sources */,
+				B04C666D2B9D5ACA009C1EB8 /* Tuple.swift in Sources */,
 				B04C665D2B9D59F4009C1EB8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B04C66782B9D61A9009C1EB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B04C667F2B9D61A9009C1EB8 /* WKDRTCTests.swift in Sources */,
+				B04C66942B9DA667009C1EB8 /* Color.swift in Sources */,
+				B04C668A2B9D9FD2009C1EB8 /* Ch01.swift in Sources */,
+				B04C66872B9D6222009C1EB8 /* TupleFeatures.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B04C66812B9D61A9009C1EB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B04C66582B9D59F4009C1EB8 /* WKDRTC */;
+			targetProxy = B04C66802B9D61A9009C1EB8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		B04C66622B9D59F5009C1EB8 /* Main.storyboard */ = {
@@ -322,6 +458,40 @@
 			};
 			name = Release;
 		};
+		B04C66832B9D61A9009C1EB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6Y33CRE77K;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.waynedahlberg.WKDRTCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WKDRTC.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WKDRTC";
+			};
+			name = Debug;
+		};
+		B04C66842B9D61A9009C1EB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6Y33CRE77K;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.waynedahlberg.WKDRTCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WKDRTC.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WKDRTC";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -339,6 +509,15 @@
 			buildConfigurations = (
 				B04C66692B9D59F5009C1EB8 /* Debug */,
 				B04C666A2B9D59F5009C1EB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B04C66822B9D61A9009C1EB8 /* Build configuration list for PBXNativeTarget "WKDRTCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B04C66832B9D61A9009C1EB8 /* Debug */,
+				B04C66842B9D61A9009C1EB8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
