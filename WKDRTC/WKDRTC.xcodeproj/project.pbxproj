@@ -24,6 +24,8 @@
 		B04C66962B9E3F85009C1EB8 /* Canvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04C66952B9E3F85009C1EB8 /* Canvas.swift */; };
 		B04C66982B9E3F9D009C1EB8 /* CanvasFeatures.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04C66972B9E3F9D009C1EB8 /* CanvasFeatures.swift */; };
 		B04C669A2B9E4C10009C1EB8 /* Ch02.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04C66992B9E4C10009C1EB8 /* Ch02.swift */; };
+		B0C0F0452B9E859800D3294C /* Matrix4Features.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C0F0442B9E859800D3294C /* Matrix4Features.swift */; };
+		B0C0F0482B9E8B7C00D3294C /* Matrix4.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C0F0462B9E86B700D3294C /* Matrix4.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,8 @@
 		B04C66952B9E3F85009C1EB8 /* Canvas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Canvas.swift; sourceTree = "<group>"; };
 		B04C66972B9E3F9D009C1EB8 /* CanvasFeatures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasFeatures.swift; sourceTree = "<group>"; };
 		B04C66992B9E4C10009C1EB8 /* Ch02.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ch02.swift; sourceTree = "<group>"; };
+		B0C0F0442B9E859800D3294C /* Matrix4Features.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Matrix4Features.swift; sourceTree = "<group>"; };
+		B0C0F0462B9E86B700D3294C /* Matrix4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Matrix4.swift; sourceTree = "<group>"; };
 		B0F4B8E92B9E4DE600143B40 /* Chapter2.ppm */ = {isa = PBXFileReference; lastKnownFileType = text; path = Chapter2.ppm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -120,6 +124,7 @@
 				B04C668F2B9DA130009C1EB8 /* Environment.swift */,
 				B04C66932B9DA667009C1EB8 /* Color.swift */,
 				B04C66952B9E3F85009C1EB8 /* Canvas.swift */,
+				B0C0F0462B9E86B700D3294C /* Matrix4.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -139,6 +144,7 @@
 			children = (
 				B04C66862B9D6222009C1EB8 /* TupleFeatures.swift */,
 				B04C66972B9E3F9D009C1EB8 /* CanvasFeatures.swift */,
+				B0C0F0442B9E859800D3294C /* Matrix4Features.swift */,
 			);
 			path = Features;
 			sourceTree = "<group>";
@@ -263,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B04C668E2B9DA06D009C1EB8 /* Projectile.swift in Sources */,
+				B0C0F0482B9E8B7C00D3294C /* Matrix4.swift in Sources */,
 				B04C666F2B9D5BA2009C1EB8 /* Point.swift in Sources */,
 				B04C665F2B9D59F4009C1EB8 /* ViewController.swift in Sources */,
 				B04C66902B9DA130009C1EB8 /* Environment.swift in Sources */,
@@ -276,6 +283,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0C0F0452B9E859800D3294C /* Matrix4Features.swift in Sources */,
 				B04C667F2B9D61A9009C1EB8 /* WKDRTCTests.swift in Sources */,
 				B04C66942B9DA667009C1EB8 /* Color.swift in Sources */,
 				B04C668A2B9D9FD2009C1EB8 /* Ch01.swift in Sources */,
