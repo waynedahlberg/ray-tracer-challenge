@@ -26,6 +26,7 @@
 		B04C669A2B9E4C10009C1EB8 /* Ch02.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04C66992B9E4C10009C1EB8 /* Ch02.swift */; };
 		B0C0F0452B9E859800D3294C /* Matrix4Features.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C0F0442B9E859800D3294C /* Matrix4Features.swift */; };
 		B0C0F0482B9E8B7C00D3294C /* Matrix4.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C0F0462B9E86B700D3294C /* Matrix4.swift */; };
+		B0C0F04A2B9E9E8000D3294C /* Ch03.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C0F0492B9E9E8000D3294C /* Ch03.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		B04C66992B9E4C10009C1EB8 /* Ch02.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ch02.swift; sourceTree = "<group>"; };
 		B0C0F0442B9E859800D3294C /* Matrix4Features.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Matrix4Features.swift; sourceTree = "<group>"; };
 		B0C0F0462B9E86B700D3294C /* Matrix4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Matrix4.swift; sourceTree = "<group>"; };
+		B0C0F0492B9E9E8000D3294C /* Ch03.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ch03.swift; sourceTree = "<group>"; };
 		B0F4B8E92B9E4DE600143B40 /* Chapter2.ppm */ = {isa = PBXFileReference; lastKnownFileType = text; path = Chapter2.ppm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -155,6 +157,7 @@
 				B04C66912B9DA272009C1EB8 /* Chapters.xctestplan */,
 				B04C66892B9D9FD2009C1EB8 /* Ch01.swift */,
 				B04C66992B9E4C10009C1EB8 /* Ch02.swift */,
+				B0C0F0492B9E9E8000D3294C /* Ch03.swift */,
 			);
 			path = PuttingItTogether;
 			sourceTree = "<group>";
@@ -290,6 +293,7 @@
 				B04C669A2B9E4C10009C1EB8 /* Ch02.swift in Sources */,
 				B04C66962B9E3F85009C1EB8 /* Canvas.swift in Sources */,
 				B04C66982B9E3F9D009C1EB8 /* CanvasFeatures.swift in Sources */,
+				B0C0F04A2B9E9E8000D3294C /* Ch03.swift in Sources */,
 				B04C66872B9D6222009C1EB8 /* TupleFeatures.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
